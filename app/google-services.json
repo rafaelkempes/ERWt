@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "19481255987",
+    "project_id": "proyectoerw",
+    "storage_bucket": "proyectoerw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19481255987:android:049dfc3efdaaa97c66c346",
+        "android_client_info": {
+          "package_name": "com.example.erw"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2H7RyjovSsgz9ks2ZYOzdGyZ0rlcXp2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

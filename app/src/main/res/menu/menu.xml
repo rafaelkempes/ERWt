@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/lista_luchador"
+        android:title="Luchadores" />
+    <item
+        android:id="@+id/annadir_luchador"
+        android:title="Añadir Luchador" />
+    <item
+        android:id="@+id/EliminarLuchador"
+        android:title="Eliminar Luchador"/>
+    <item
+        android:id="@+id/ModificarLuchador"
+        android:title="Modificar Luchador"/>
+    <item
+        android:id="@+id/cerrar_sesion"
+        android:title="Cerrar Sesión"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/cerrar"/>
+</menu>

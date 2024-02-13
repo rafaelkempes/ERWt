@@ -1,0 +1,267 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/textViewDni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DNI:"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editTextDni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewDni"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/textViewNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextDni"
+            android:layout_marginTop="16dp"
+            android:text="Nombre:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewNombre"
+            android:layout_marginTop="8dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/textViewNombreArtistico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre Artístico:"
+            android:textSize="18sp"
+            android:layout_below="@id/editTextNombre"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextNombreArtistico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewNombreArtistico"
+            android:layout_marginTop="8dp"
+            android:inputType="text"/>
+
+
+        <!-- Repite este patrón para los demás campos -->
+
+        <TextView
+            android:id="@+id/textViewEdad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edad:"
+            android:textSize="18sp"
+            android:layout_below="@id/editTextNombreArtistico"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewEdad"
+            android:layout_marginTop="8dp"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/textViewLicencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Licencia:"
+            android:textSize="18sp"
+            android:layout_below="@id/editTextEdad"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextLicencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewLicencia"
+            android:layout_marginTop="8dp"
+            android:inputType="text"/>
+
+
+        <TextView
+            android:id="@+id/textViewPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peso:"
+            android:textSize="18sp"
+            android:layout_below="@id/editTextLicencia"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewPeso"
+            android:layout_marginTop="8dp"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textViewAltura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Altura:"
+            android:textSize="18sp"
+            android:layout_below="@id/editTextPeso"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextAltura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewAltura"
+            android:layout_marginTop="8dp"
+            android:inputType="numberDecimal"/>
+
+
+        <TextView
+            android:id="@+id/textViewHabilidades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Habilidades:"
+            android:textSize="18sp"
+            android:layout_below="@id/editTextAltura"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextHabilidades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewHabilidades"
+            android:layout_marginTop="8dp"
+            android:inputType="text"/>
+
+
+        <TextView
+            android:id="@+id/textViewEntrada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrada:"
+            android:textSize="18sp"
+            android:layout_below="@id/editTextHabilidades"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewEntrada"
+            android:layout_marginTop="8dp"
+            android:inputType="text"/>
+        <TextView
+            android:id="@+id/textViewMusica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Música:"
+            android:textSize="18sp"
+            android:layout_below="@id/editTextEntrada"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextMusica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewMusica"
+            android:layout_marginTop="8dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/textViewGimmick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gimmick:"
+            android:textSize="18sp"
+            android:layout_below="@id/editTextMusica"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextGimmick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewGimmick"
+            android:layout_marginTop="8dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/textViewTitulos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Títulos:"
+            android:textSize="18sp"
+            android:layout_below="@id/editTextGimmick"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextTitulos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTitulos"
+            android:layout_marginTop="8dp"
+            android:inputType="text"/>
+        <TextView
+            android:id="@+id/textViewActivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activo:"
+            android:textSize="18sp"
+            android:layout_below="@id/editTextTitulos"
+            android:layout_marginTop="16dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxActivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewActivo"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewCensurado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Censurado:"
+            android:textSize="18sp"
+            android:layout_below="@id/checkBoxActivo"
+            android:layout_marginTop="16dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxCensurado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewCensurado"
+            android:layout_marginTop="8dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonFoto"
+            android:layout_width="116dp"
+            android:layout_height="112dp"
+            android:layout_below="@id/checkBoxCensurado"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/ic_launcher_foreground"/>
+
+        <Button
+            android:id="@+id/buttonConfirmar"
+            android:layout_width="252dp"
+            android:layout_height="44dp"
+            android:text="Confirmar"
+            android:layout_below="@id/imageButtonFoto"
+            android:layout_marginTop="24dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

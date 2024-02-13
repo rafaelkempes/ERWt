@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ERW" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#03A9F4</item> 
+        <item name="colorSecondary">#757575</item>
+        <item name="colorPrimaryDark">#0288D1</item>
+        <item name="colorAccent">#00BCD4</item>
+
+
+
+    </style>
+
+    <style name="Theme.ERW" parent="Base.Theme.ERW" />
+
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FF9800</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/a</item>
+        <item name="postSplashScreenTheme">@style/Theme.ERW</item>
+    </style>
+</resources>
